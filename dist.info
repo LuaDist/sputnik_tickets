@@ -1,0 +1,15 @@
+--- This file is part of LuaDist projecte
+
+name = "sputnik_tickets"
+version = "8.07.21"
+
+desc = "A bug-tracking plugin for Sputnik"
+author = "Yuri Takhteyev"
+license = "MIT/X11"
+url = "http://spu.tnik.org"
+maintainer = "Peter Drahoš"
+
+depends = {
+	"lua ~> 5.1",
+	"sputnik >= 8.07.21",
+}
