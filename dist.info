@@ -1,0 +1,32 @@
+type = "x86_64"
+arch = "Ubuntu"
+author = "Yuri Takhteyev"
+depends = {
+[[lua ~> 5.1]],
+[[sputnik >= 8.07.21]],
+}
+
+desc = "A bug-tracking plugin for Sputnik"
+version = "8.07.21"
+maintainer = "Peter Drahoš"
+files = {
+Runtime = {
+[[lib/lua/sputnik/node_defaults/Tickets.lua]],
+[[lib/lua/sputnik/node_defaults/@Ticket.lua]],
+[[lib/lua/sputnik/node_defaults/icons/bug.lua]],
+[[lib/lua/sputnik/node_defaults/icons/edit-faded.lua]],
+[[lib/lua/sputnik/node_defaults/tickets/templates.lua]],
+[[lib/lua/sputnik/node_defaults/tickets/translations.lua]],
+[[lib/lua/sputnik/actions/tickets.lua]],
+[[lib/lua/sputnik/javascript/sorttable.lua]],
+}
+,
+Data = {
+[[share/sputnik_tickets/LICENSE.txt]],
+}
+,
+}
+
+license = "MIT/X11"
+name = "sputnik_tickets"
+url = "http://spu.tnik.org"
